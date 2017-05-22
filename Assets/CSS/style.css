@@ -1,0 +1,496 @@
+body{
+	background-color: grey;
+	/*background-image: url(../media/images/bg.png);*/
+	background-repeat: none;
+	font-family: microsoft new tai lue; font-weight: bold;
+}
+.menu ul{
+list-style-type: none;
+}
+.menu{
+	margin-top: -7px;
+	margin-bottom: 0px;
+}
+.menu li a{
+text-decoration: none;
+float: left;
+padding: 5px 39px 0px 10px;
+color: white;
+margin-left: -30px;
+font-size: 15px;	
+}
+.menu li a:hover{
+	color:#000033;
+	text-shadow: 1px 1px 2px white;
+}
+.menu li a:active{
+	color:#ffcc00;
+}
+.header{
+	width: 100%;
+	height: 80px;
+	background-color: white;
+	margin-top: 8px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	opacity: 0.7;
+	border-bottom: 6px solid #003;
+
+}
+#facebook{
+	margin: -20px 3px 0px 690px;
+}
+#twitter{
+	margin: 0px 3px 0px 0px;
+}
+#instagram{
+	margin: 0px 3px 0px 0px;
+}
+#google_plus{
+	margin: 0px 3px 0px 0px;
+}
+#logo_type{
+	margin: 10px 0px 0px 0px;
+}
+.blue{
+	width: 100%; 
+	height: 15px; 
+	background-color: #000033;
+	margin: -1px 0px 0px 0px;
+	opacity: 0.7;
+}
+#login{
+	margin: -150px 0px 20px 690px;
+}
+#language{
+	margin: -80px 0px 38px 850px;
+}
+#text{
+	margin: -50px 0px 0px 730px;
+}
+#text_lan{
+	
+}
+/*start from here tomorrow*/
+#help{
+	margin: -85px 0px 80px 955px;
+}
+#text_help{
+	margin: -40px 0px 10px 995px;
+}
+#search_box{
+	margin: -75px 10px 10px 1000px;
+	border-color: #000033;
+	border-radius: 9px;
+	background-color: transparent;
+	width: 330px;
+	height: 15px;
+	text-align: right;
+	font-size: 16px;
+	padding: 2px;
+	color: #000033;
+	border-width: 3px;
+	float:right;
+}
+#weather{
+	margin: 40px 0px 0px 1154px;
+}
+#img_travel{
+	margin: 100px 0px 0px 0px;
+	width: 100%;
+	height: 40%;
+}
+#text_travel{
+	margin: -190px 30px 310px 240px;
+}
+#p_p{
+	margin: 200px 0px 0px 10px;
+	text-align: right;
+	font-size: 14px;
+	padding: 10px 50px 0px 0px;
+	
+}
+#copy{
+	width: 100%;
+	height: 20px;
+	background-color: #000033;
+	text-align: center;
+	color: #ffffff;
+	font-size: 14px;
+	margin: 20px 0px 10px 0px;
+	opacity: 0.7;
+}
+.footer{
+	background-color: white;
+	width: 100%;
+	height: 80px;
+	opacity: 0.7;
+		
+}
+#name{
+	border-color: #000033 ;
+	border-radius: 5px;
+	border-width: 2px;
+	margin: 10px 0px 0px 1070px;
+	width: 120px;
+}
+#email{
+	border-color: #000033;
+	border-radius: 5px;
+	border-width: 2px;
+	margin: 0px 0px 0px 0px;
+	width: 120px;
+}
+.sign {
+position: relative;
+float: left;
+margin: -50px 0px 0px 730px;
+font-size: 14px;
+}
+
+.sign-content {
+display: none;
+position: absolute;
+background-color: #000033;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+padding: 12px 16px;
+z-index: 1;
+}
+.sign-content a{
+	text-decoration: none;
+	color: white;
+}
+.sign:hover .sign-content {
+display: block;
+}
+.dropdown {
+position: relative;
+float: left;
+margin: -70px 0px 0px 890px;
+font-size: 14px;
+}
+
+.dropdown-content a{
+	text-decoration: none;
+	color: white;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #000033;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+padding: 12px 16px;
+z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.help {
+position: relative;
+float: left;
+margin: -110px 0px 10px 1000px;
+font-size: 14px;
+}
+
+.help-content {
+display: none;
+position: absolute;
+background-color: #000033;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+padding: 12px 16px;
+z-index: 1;
+}
+.help-content a{
+	text-decoration: none;
+	color: white;
+}
+.help:hover .help-content {
+display: block;
+}
+
+#right{
+	width: 1117px;
+	margin: -1038px 0px 10px 220px;
+	background-color: #ffffff;
+	height: 1020px;
+	color: #000033;
+	opacity: 0.7;
+}
+
+#cop{
+	width: 100%;
+	height: 20px;
+	background-color: #000033;
+	text-align: center;
+	color: #ffffff;
+	font-size: 14px;
+	margin: -10px 0px 0px 0px;
+
+}
+.nav{
+	opacity: 0.7;
+}
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #003;
+    height: 1020px;
+    border-right: 20px solid #fff;
+}
+
+.nav li a {
+    display: block;
+    color: #000;
+    padding: 0px 0px;
+    margin: 0px 0px 0px 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+/* Change the link color on hover */
+.nav li a:hover {
+    background-color: #fff;
+    color: #003;
+}
+#white{
+	background-color: #003;
+	height: 50px;
+	margin: 0px 0px 0px 0px;
+}
+#about{
+	margin: -10px 10px 10px 10px;
+}
+#input{
+	width: 450px;
+	height: 15px;
+	border-width: 2px;
+	border-color: #000033;
+	border-radius: 6px;
+}
+#message{
+	width: 450px;
+	height: 40px;
+	border-width: 2px;
+	border-color: #000033;
+	border-radius: 6px;
+}
+.button{
+	background-color: #000033;
+	border-radius: 6px;
+	height: 30px;
+	color: white;
+}
+.Sign_head{
+background-color: #000033;
+width: 100%;
+height: 90px;
+color: white;
+margin: -20px 0px 0px 0px;
+	
+}
+.container{
+height: 500px;
+font-size: 20px;
+margin: 5px;
+}
+#s_email{
+margin: 10px 0px 0px -5px;
+}
+#s_input{
+margin: 0px 0px 0px -5px;
+width: 100%;
+border-color: #000033;
+border-width: 2px;
+height: 40px;
+}
+#sign_btn{
+background-color: #000033;
+color: white;
+border-radius: 3px;
+margin: 10px 0px 0px -5px;
+height: 50px;
+width: 100%;
+font-size: 24px;
+text-align: center;
+}
+#checked{
+height: 20px;
+width: 20px;
+}
+/*dont forget you stop here*/
+/*galleries start here*/
+.left{
+width: 400px;
+margin: 10px 10px 0px 45px;
+
+float: left;
+}
+.center{
+margin: 10px;
+width: 400px;
+
+float: left;
+}
+.right{
+margin: 10px;
+width: 400px;
+
+float: left;
+}
+#G_head{
+	width: 100%;
+	height:50px;
+	background-color: #000033;
+	color: #fff;
+	text-align: center;
+	font-size: 36px;
+	padding: 3px;
+	border: 1px solid #fff;
+}
+#border_1{
+	border:2px solid #003;
+}
+#border_1:hover{
+	background-color: white;
+	opacity: 0.4;
+}
+.desc_img{
+	margin: -10px 0px 10px 0px;
+	background-color: #003;
+	height: 30px;
+	width: 404px;
+}
+#love{
+	margin: 0px 0px 0px 360px;
+	padding: 4px;
+	text-decoration: none;
+	color: white;
+}
+#love:hover{
+	color: red;
+	border:1px solid white;
+}
+/*Discover Nigeria start here*/
+.left_dn{
+margin: 0px 0px 0px 0px;
+width: 200px;
+border: 2px solid #003;
+height: 21370px;
+background-color: #003;
+opacity: 0.8;
+}
+.left_dn ul{
+	list-style-type: none;
+	margin: 0px 10px 0px -40px;
+	width: 200px;
+	position: fixed;
+	font-weight: bolder;
+}
+
+.left_dn li a{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+}
+.left_dn li a:hover{
+	background-color: #fff;
+	color: #003;
+
+}
+.right_dn{
+margin: -21310px 0px 10px 195px;
+width: 85%;
+background-color: #fff;
+opacity: 0.8;
+}
+#north_n{
+width: 100%;
+height:50px;
+background-color: #000033;
+color: #fff;
+text-align: center;
+font-size: 36px;
+padding: 3px;
+}
+.north_m{
+	margin: 25px 20px 0px 20px;
+}
+#south_n{
+width: 100%;
+height:50px;
+background-color: #000033;
+color: #fff;
+text-align: center;
+font-size: 36px;
+padding: 3px;
+}
+#hr{
+	background-color: #003;
+	height: 3px;
+}
+#cop_dn{
+	width: 100%;
+	height: 20px;
+	background-color: #000033;
+	text-align: center;
+	color: #ffffff;
+	font-size: 14px;
+	margin: -4px 0px 0px 0px;
+	opacity: 0.8;
+}
+/*World Start Here*/
+.right_w{
+margin: -46700px 0px 10px 195px;
+width: 85%;
+background-color: #fff;
+opacity: 0.7;
+}
+.left_w{
+margin: 0px 0px 0px 0px;
+width: 200px;
+border: 2px solid #003;
+height: 46760px;
+background-color: #003;
+opacity: 0.9;
+}
+.left_w ul{
+	list-style-type: none;
+	margin: 0px 10px 0px -40px;
+	width: 200px;
+	position: fixed;
+	font-weight: bolder;
+}
+.left_w li a{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+}
+.left_w li a:hover{
+	background-color: #fff;
+	color: #003;
+
+}
+#cop_w{
+	width: 100%;
+	height: 20px;
+	background-color: #000033;
+	text-align: center;
+	color: #ffffff;
+	font-size: 14px;
+	margin: -4px 0px 0px 0px;
+	opacity: 1;
+}
+#contact{
+	font-weight: lighter;
+	font-size: 18px;
+}
+/*To be continued in style2*/
+/*OMG*/
+
+

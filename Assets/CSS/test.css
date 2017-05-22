@@ -1,0 +1,119 @@
+/*body {
+	background-image: url(../media/images/bg.jpg);
+	font-family: microsoft new tai lue; font-weight: bold;
+	background-color: grey;
+	margin: 0px;
+	padding: 0px;
+	}
+.menu ul{
+	list-style-type: none;
+}
+.menu li a{
+	text-decoration: none;
+	float: left;
+	padding: 5px 39px 0px 10px;
+	color: white;
+	text-shadow: 0 0 18px #000033, 0 0 20px #000033;
+	margin-left: -30px;
+	font-size: 15px;	
+}
+
+#facebook{
+	margin: -850px -20px 13px 290px;
+}
+#twitter{
+	margin: -1800px 450px 42px 395px;
+}
+#instagram{
+	margin: -1800px 450px 98px 415px;
+}
+#google_plus{
+	margin: -1800px 450px 95px 380px;
+}
+#pintrest{
+	margin: -1850px 450px 150px 520px;
+}
+.header{
+	width: 2000px;
+	height: 110px;
+	background-color: white;
+	margin-top: -920px;
+	margin-bottom: 500px;
+}
+#logo{
+	margin-top: -100px;
+}
+#logo_type{
+	margin: -1705px 0px 500px 0px;
+}
+.blue{
+	width: 2000px; 
+	height: 20px; 
+	background-color: #000033;
+	margin-bottom: 500px;
+	margin-top: -2000px;
+}
+#login{
+	margin: -735px 0px 100px -480px;
+	
+}
+#language{
+	margin: -310px 0px 100px -540px;
+
+}
+#p_lo{
+	margin: -1640px -100px 100px 1180px;
+}
+#help{
+	margin: -200px -300px 10px -610px;
+}
+.dropdown{
+	position: relative;
+    display: block;
+}
+.dropdown-content{
+	display: none;
+    position: absolute;
+    background-color:#000033;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+
+
+.dropdown-content p a{
+	text-decoration: none;
+	color: #ffffff;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown{
+	margin: -1625px -100px 0px 1300px;
+}
+
+
+.help{
+	margin: -1535px -100px 50px 1430px;
+}
+#search_box {
+	/*margin: 0px -100px 0px 1530px;
+	height: 20px;
+	width: 350px;
+	border-radius: 9px;
+	border-color: #000033;
+	background-color: transparent;
+	text-align: right;
+	font-size: 16px;
+	padding: 2px;
+	color: #000033;
+	border-width: 3px;
+}
+#weather {
+	margin: -680px 0px 100px -300px;
+}
+#img_travel{
+	
+}*/
